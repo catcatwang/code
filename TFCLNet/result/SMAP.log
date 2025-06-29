@@ -1,0 +1,39 @@
+------------ Options -------------
+anormly_ratio: 0.72
+batch_size: 64
+config: config/SMAP.conf
+d_model: 128
+data_path: dataset/SMAP
+dataset: SMAP
+e_layers: 3
+fr: 0.3
+gpu: 0
+input_c: 25
+lr: 0.0001
+mode: te
+model_save_path: cpt
+num_epochs: 1
+output_c: 25
+seed: 1
+seq_size: 10
+tr: 0.65
+win_size: 100
+-------------- End ----------------
+test: (427617, 25)
+train: (108146, 25)
+test: (427617, 25)
+train: (108146, 25)
+test: (427617, 25)
+train: (108146, 25)
+test: (427617, 25)
+train: (108146, 25)
+======================TRAIN MODE======================
+Epoch: 1, Steps: 1689 | Train Loss: 0.0000000 Vali Loss: 0.0000000 | Time: 35.05s | Memory Usage: 48.52MB
+======================TEST MODE======================
+Threshold : 0.38779923551082635
+pred:    (427600,)
+gt:      (427600,)
+pred:  (427600,)
+gt:    (427600,)
+Accuracy : 0.9922, Precision : 0.9483, Recall : 0.9930, F-score : 0.9702 
+

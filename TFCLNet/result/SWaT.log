@@ -1,0 +1,40 @@
+------------ Options -------------
+anormly_ratio: 0.28
+batch_size: 64
+config: config/SWaT.conf
+d_model: 128
+data_path: dataset/SWaT
+dataset: SWaT
+e_layers: 3
+fr: 0.4
+gpu: 0
+input_c: 51
+lr: 0.0001
+mode: te
+model_save_path: cpt
+num_epochs: 1
+output_c: 51
+seed: 1
+seq_size: 10
+tr: 0.25
+win_size: 100
+-------------- End ----------------
+test: (449919, 51)
+train: (396000, 51)
+test: (449919, 51)
+train: (396000, 51)
+test: (449919, 51)
+train: (396000, 51)
+test: (449919, 51)
+train: (396000, 51)
+======================TRAIN MODE======================
+Epoch: 1, Steps: 6186 | Train Loss: 0.0000000 Vali Loss: 0.0000000 | Time: 119.37s | Memory Usage: 65.08MB
+======================TEST MODE======================
+Threshold : 0.8172109758376929
+pred:    (449900,)
+gt:      (449900,)
+pred:  (449900,)
+gt:    (449900,)
+Accuracy : 0.9963, Precision : 0.9706, Recall : 1.0000, F-score : 0.9851
+
+
